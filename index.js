@@ -10,7 +10,7 @@ db.authenticate()
     .catch(error=> console.log(error))
 
 const host = process.env.HOST || '0.0.0.0';
-const port = process.env.port || 3000
+const port = process.env.PORT || 3000
 
 app.set('view engine', 'pug');
 
